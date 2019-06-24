@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:id="@+id/movieItem"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+    >
+        <FrameLayout
+                android:id="@+id/movie_container"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:layout_margin="1dp"
+                android:foreground="?attr/selectableItemBackground" android:focusable="true">
+
+            <ImageView
+                    android:id="@+id/movie_poster"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="TODO"
+                    android:background="@drawable/tommycooper"/>
+
+            <View
+                    android:id="@+id/title_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="bottom"
+                    android:alpha="0.8"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"/>
+
+            <TextView
+                    android:id="@+id/mName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/default_button_side_padding"
+                    android:paddingRight="@dimen/default_button_side_padding"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"/>
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

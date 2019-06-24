@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="colorAppBG">#20242C</color>
+    <color name="colorDefaultTextColor">#000000</color>
+    <color name="colorDefaultHeaderTextColor">#D3D3D3</color>
+    <color name="colorDefaultButtonColor">#FFEF03</color>
+    <color name="colorButtonTextColor">#000000</color>
+    <color name="colorDefaultButtonBorderColor">#FFEF03</color>
+    <color name="colorDefaultDialog">#ffffff</color>
+    <color name="colorLoginButtonColor">#ffffff</color>
+    <color name="colorCancelStroke">#000000</color>
+    <color name="colorSignInInput">#181D21</color>
+    <color name="colorDisabledButtonColor">#fff77f</color>
+    <color name="colorDisabledTextColor">#b2ad65</color>
+
+
+</resources>
